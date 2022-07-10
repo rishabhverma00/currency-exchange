@@ -1,1 +1,2 @@
 # currency-exchange
+Endpoint : /exchange
