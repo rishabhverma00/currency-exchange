@@ -16,6 +16,16 @@ public class ExchangeConfigs {
   private String exchangeApiKey;
   @Value("exchangeApiValue")
   private String exchangeApiValue;
+  @Value("isRedisEnable")
+  private String isRedisEnable;
+
+  public String getIsRedisEnable() {
+    return isRedisEnable;
+  }
+
+  public void setIsRedisEnable(String isRedisEnable) {
+    this.isRedisEnable = isRedisEnable;
+  }
 
   public String getExchangeRatesUrl() {
     return exchangeRatesUrl;
